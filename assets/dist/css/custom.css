@@ -50,16 +50,16 @@
 }
 
 .bg-light {
-    background-color: rgb(57, 93, 163) !important;
+    background-color: #000000 !important;
 }
 
 .nav-link {
-    color: #FFFFFF !important;
+    color: #FFD700 !important;
 }
 
 .navbar-toggler {
     color: #FFFFFF !important;
-    background-color: #EB9916 !important;
+    background-color: #FFD700 !important;
 }
 
 .navbar-text {
@@ -67,7 +67,7 @@
 }
 
 .footer {
-    background-color: #395da3 !important;
+    background-color: #000000 !important;
 }
 
 .img-zoom {
@@ -114,51 +114,50 @@
     text-align: justify;
 }
 
+.background-gradient-black {
+    background-image: linear-gradient(#000000, #000000);
+}
+
 .background-gradient {
-    background-image: linear-gradient(#395da3, #EB9916);
+    background-image: linear-gradient(#000000, #EABE3F);
 }
 
 .background-gradient-invert {
-    background-image: linear-gradient(#EB9916, #395da3);
+    background-image: linear-gradient(#EABE3F, #000000);
 }
 
 .background-gray {
     background-color: #EEE;
 }
 
+.background-black {
+    background-color: #000000;
+}
+
 .btn-blue {
     background-color: #395da3 !important;
 }
 
-.text-grad {
-    font-size: 72px;
-    background: -webkit-linear-gradient(left, #EB9916, #FFFFFF);
-    background: linear-gradient(to right, #EB9916, #FFFFFF); /* Propiedad estándar */
-    -webkit-background-clip: text;
-    background-clip: text; /* Propiedad estándar */
-    -webkit-text-fill-color: transparent;
-}
-
 hr {
-    color: #EB9916;
+    color: #FFD700;
 }
 
 .btn-grad {
-    background-image: linear-gradient(to right, #124485 0%, #1CB5E0  51%, #395da3  100%);
+    background-color: #000000 !important;
     padding: 10px 25px;
     text-align: center;
     transition: 0.5s;
     background-size: 200% auto;
-    color:#FFFFFF;
+    color:#FFD700;
     border-radius: 10px;
-    border: ridge 1px transparent;
+    border: ridge 1px #FFD700;
 }
 
 .btn-grad:hover {
-    background-position: right center; /* change the direction of the change here */
-    color: #fff;
+    background-color: #FFD700 !important;
+    color: #000000;
     text-decoration: none;
-    border: ridge 1px transparent;
+    border: ridge 1px #FFD700;
 }
 
 /****************/
@@ -291,4 +290,8 @@ hr {
         width: 100%;
         height: auto;
     }
+}
+
+.text-decoration-none:hover {
+    color: #FFD700 !important;
 }
